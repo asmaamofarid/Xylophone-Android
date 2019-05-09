@@ -12,11 +12,12 @@
     tools:context=".MainActivity">
 
     <Button
-        style="@style/KeyStyle"
         android:id="@+id/c_key"
-        android:background="@color/red"
+        style="@style/KeyStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:onClick="Cplayer" />
 
     <Button
         style="@style/KeyStyle"
@@ -25,7 +26,9 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Dplayer"
+        />
 
     <Button
         style="@style/KeyStyle"
@@ -34,7 +37,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Eplayer"
+        />
 
     <Button
         style="@style/KeyStyle"
@@ -43,7 +48,9 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Fplayer"
+        />
 
     <Button
         style="@style/KeyStyle"
@@ -52,7 +59,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Gplayer"
+        />
 
 
     <Button
@@ -62,7 +71,9 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Aplyer"
+        />
 
     <Button
         style="@style/KeyStyle"
@@ -71,6 +82,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:onClick="Bpayer"
+        />
 
 </LinearLayout>
